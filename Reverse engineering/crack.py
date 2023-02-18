@@ -4,4 +4,4 @@ license_key = ""
 for char in secret_key:
     license_key += chr(int(char, 16) ^ 99)
 
-print("S" + license_key)
+print("S" + license_key)  # Flag starts with "Skill"
