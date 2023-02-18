@@ -20,4 +20,4 @@ d = pow(e, -1, phi)
 private_key = RSA.construct((n, e, d))
 decryptor = PKCS1_OAEP.new(private_key)
 decrypted = decryptor.decrypt(cipher_text)  # Flag starts with "Skill"
-print(decrypted.decode('utf-8'))
+print(decrypted.decode("utf-8"))
