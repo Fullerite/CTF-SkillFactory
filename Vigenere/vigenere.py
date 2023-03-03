@@ -1,7 +1,7 @@
 import string
 
 cipher_text = open("output.txt", "r").read()
-key = "mysecurekey"
+key = "mysecurekey"  # The key is given
 
 alphabet_lowercase = string.ascii_lowercase
 alphabet_uppercase = string.ascii_uppercase
